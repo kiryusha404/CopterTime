@@ -1,0 +1,53 @@
+.author{
+    width: 500px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+.author img{
+    border-radius: 18px 18px 0 0;
+    width: 100%;
+}
+.form_input{
+    width: 90%;
+    margin: 15px auto;
+}
+.form_input input{
+    width: 100%;
+    margin: 5px 0;
+}
+
+.reg_text{
+    text-align: center;
+    margin-bottom:  10px;
+}
+.error{
+    color: red;
+    text-align: center;
+    margin-bottom:  10px;
+}
+.h_aut{
+    text-align: center;
+    size: 20px;
+}
+
+.password {
+	position: relative;
+}
+.password-control {
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
+}
+.password-control.view {
+	background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
+}
+@media screen and (max-width: 650px){
+    .nav_form{
+        margin: 10px 10px 0 10px;
+    }
+}
