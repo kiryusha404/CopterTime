@@ -23,7 +23,7 @@
           <a class="nav__link" href="catalog">Каталог</a>
         </li>
         <li class="nav__item">
-          <a class="nav__link" href="#">Где нас найти?</a>
+          <a class="nav__link" href="local">Где нас найти?</a>
         </li>
         <li class="nav__item">
           <a class="nav__link" href="authorization">Войти</a>

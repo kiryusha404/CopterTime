@@ -1,0 +1,22 @@
+.list_tovar{
+    display: flexbox;
+}
+.tovar_cart{
+    margin: 5px;
+    width: 250px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px;
+}
+.tovar_cart:hover{
+    color: #808080;
+}
+.tovar_cart img{
+    width: 100%;
+    border-radius: 5px;
+}
+.index_tovar{
+    text-decoration: none;
+    color:#000;
+}
