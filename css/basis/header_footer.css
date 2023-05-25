@@ -35,3 +35,9 @@ header img{
     color: #808080;
 }
 
+.about{
+    width: 100px;
+}
+.about_text{
+    margin-top: 10px;
+}

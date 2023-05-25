@@ -4,7 +4,7 @@
     $input = mysqli_query($db, $push);
     while($row = mysqli_fetch_array($input)){
         ?>
-        <a href="" class="index_tovar">
+        <a href="tovar?id=<?php echo $row['id_product']; ?>" class="index_tovar">
             <div class="tovar_cart">
             <img src='<?php echo $row['img_product']; ?>' alt="фото товара">
             <h3> <?php echo $row['name_product']; ?></h3>
