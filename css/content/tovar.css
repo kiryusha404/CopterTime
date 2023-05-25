@@ -1,0 +1,13 @@
+.tovar_page{
+    width: 600px;
+    margin: 20px auto;
+}
+.tovar_page img{
+    width: 100%;
+}
+.tovar_page h1{
+    font-size: 30px;
+}
+.tovar_page p{
+    font-size: 20px;
+}
