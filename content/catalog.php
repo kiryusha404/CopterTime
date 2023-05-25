@@ -1,6 +1,6 @@
 <div class="list_tovar">
 <?php 
-    $push = "select * from product where amount_product > 0";
+    $push = "select * from product where amount_product > 0 order by id_product desc";
     $input = mysqli_query($db, $push);
     while($row = mysqli_fetch_array($input)){
         ?>

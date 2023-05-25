@@ -1,7 +1,3 @@
-<?php
-    session_start();
-    $db = mysqli_connect("localhost", "root", "root", "coptertime");
-?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -26,7 +22,11 @@
           <a class="nav__link" href="local">Где нас найти?</a>
         </li>
         <li class="nav__item">
-          <a class="nav__link" href="authorization">Войти</a>
+          <?php if(!$_SESSION['id_us']){ 
+            print '<a class="nav__link" href="authorization">Войти</a>';
+           } else{ 
+            print '<a class="nav__link" href="logout">Выйти</a>';
+           } ?>
         </li>
     </ul>
     </nav>
