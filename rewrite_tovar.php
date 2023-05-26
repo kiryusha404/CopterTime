@@ -36,6 +36,11 @@
         $res = mysqli_query($db, $push);
     }
 
+    if($_POST['amount']){
+        $push = 'UPDATE `product` SET `amount_product` = "'.$_POST['amount'].'" WHERE `product`.`id_product` = '.$id_tovar.';';
+        $res = mysqli_query($db, $push);
+    }
+
     if($img['name']){
         var_dump($_FILES);
         $url = $img['name'];

@@ -22,6 +22,7 @@
     <input type="text" name="brand" class="tovar_add_element" placeholder="Фирма-изготовитель" value="<?php echo $res['brand_product'];?>">
     <input type="text" name="mass" class="tovar_add_element" placeholder="Вес дрона в граммах" value="<?php echo $res['mass_product'];?>">
     <input type="text" name="time" class="tovar_add_element" placeholder="Время полёта" value="<?php echo $res['time_product'];?>">
+    <input type="text" name="amount" class="tovar_add_element" placeholder="количество" value="<?php echo $res['amount_product'];?>">
     <button type="submit" class="add_but">Изменить</button>
     </form>
 </div>
