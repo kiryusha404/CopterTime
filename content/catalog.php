@@ -1,3 +1,11 @@
+<?php 
+    if($_SESSION['role_us'] == 'admin'){
+        echo '<div class="menu_admin">
+                <a href="add_tovar"><div class="element_menu_admin"><p>+ Добавить товар</p></div></a>
+                <a href=""><div class="element_menu_admin"><p>Изменить категории</p></div></a>
+              </div>';
+    }
+?>
 <div class="list_tovar">
 <?php 
     $push = "select * from product where amount_product > 0 order by id_product desc";

@@ -22,6 +22,13 @@
           <a class="nav__link" href="local">Где нас найти?</a>
         </li>
         <li class="nav__item">
+        <?php
+          if($_SESSION['role_us'] == 'admin'){
+            print '<a class="nav__link" href="admin">Список заказов</a>';    
+          }
+        ?>
+        </li>
+        <li class="nav__item">
           <?php if(!$_SESSION['id_us']){ 
             print '<a class="nav__link" href="authorization">Войти</a>';
            } else{ 

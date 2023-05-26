@@ -64,7 +64,7 @@
                     $_SESSION['id_us'] = $row['id_user'];
                     $_SESSION['role_us'] = $row['role_user'];
 
-                    echo "<script>window.location.href='index.php'</script>";
+                    echo "<script>window.location.href='index'</script>";
                 }
 
             }    

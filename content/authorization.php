@@ -16,9 +16,9 @@
             $input = mysqli_query($db, $push);
             $row = mysqli_fetch_array($input);
                 if(password_verify($_POST['pass'], $row['pass_user'])){
-                   $_SESSION['role'] = $row['role_user']; 
+                   $_SESSION['role_us'] = $row['role_user']; 
                    $_SESSION['id_us'] = $row['id_user'];
-                   echo "<script>window.location.href='index.php'</script>";
+                   echo "<script>window.location.href='index'</script>";
                 }
                 else{
                     echo "<p class='error'>Неверный логин или пароль.</p>";
