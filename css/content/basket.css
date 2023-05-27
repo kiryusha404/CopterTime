@@ -1,0 +1,129 @@
+.circle{
+    width: 80%;
+    margin: 5px auto;
+}
+
+.korzina__zag{
+    height: 30px;
+    width: 170px;
+    text-align: center;
+    margin-left: 50px;
+    padding-top: 10px;
+    background: #4f43f7;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.itogo{
+    width: 1098px;
+    margin: 0 auto;
+    height: 72px;
+    margin-top: 50px;
+    border: 1px solid black;
+    display: flex;
+    margin-bottom: 20px; 
+    font-size: 20px;
+}
+    .i__l__p{
+        margin-left: 40px;
+        margin-top: 24px;
+    }
+    .i__c__p{
+        margin-left: 35%;
+        margin-top: 24px;
+        width: 150px;
+    }
+    .itogo button{
+        height: 35px;
+        width: 150px;
+        border: 0;
+        background: #4f43f7;
+        color: white;
+        border-radius: 30px;
+        margin-left: 25%;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+.products{
+    
+}
+    .product{
+        width: 1098px;
+        display: flex;
+        border: 1px solid black;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .product img{
+        height: 100px;
+        width: 100px;
+    }
+    .product p{
+        width: 200px;
+        padding: 0;
+        margin-left: 40px;
+        
+    }
+    .pname{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .pcost{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .right__block{
+        display: flex;
+        margin-top: 60px;
+        margin-left: 450px;
+    }
+        .yt{
+            width: 150px;
+            height: 30px;
+            border: 0;
+            border-radius: 30px;
+            background: #4f43f7;
+            color: white;
+        }
+        .yt:hover{
+            background: #eca790;
+            cursor: pointer;
+        }
+        .r__r__block{
+            display: flex;
+            background: #4f43f7;
+            width: 100px;
+            height: 30px;
+            border-radius: 30px;
+            align-items: center;
+            margin-left: 40px;
+        }
+            .r__r__block button{
+                border: 0;
+                width: 20px;
+                height: 20px;
+                margin-left: 10px;
+                margin-right: 10px;
+                color: white;
+                background: #4f43f7;
+            }
+            .r__r__block button:hover{
+                cursor: pointer;
+            }
+            .r__r__block p{
+                margin: 0;
+                padding: 0;
+                color: white;
+                
+            }
+.cleer{
+    margin-top: 10px ;
+    margin-left: 50px;
+}
+.text_basket{
+    border-left: 1px solid black;
+}
