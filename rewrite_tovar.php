@@ -50,7 +50,7 @@
             echo 'Файл не смог загрузиться';
         }
 
-        $push = 'UPDATE `product` SET `brand_product` = "img/copter/'.$url.'" WHERE `product`.`id_product` = '.$id_tovar.';';
+        $push = 'UPDATE `product` SET `img_product` = "img/copter/'.$url.'" WHERE `product`.`id_product` = '.$id_tovar.';';
         $res = mysqli_query($db, $push);
     }
 
